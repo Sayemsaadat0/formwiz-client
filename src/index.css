@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainLayout {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  font-size: large;
+}
+
+/* logo */
+
+.logo {
+  background-image: url("https://i.pinimg.com/564x/a9/a4/02/a9a402069367de48d53332a9dfbb1a1c.jpg");
+  color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
