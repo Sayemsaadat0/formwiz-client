@@ -64,10 +64,10 @@ const Signup = () => {
                         <h5 className=' text-center'>Already Have an account?? <Link to='/signin' className='text-secondary'>Login Here!</Link> </h5>
                     </div>
 
-                    <div className='divider'>or</div>
+                    {/* <div className='divider'>or</div>
                     <div>
-                        <button className='btn border-none  hover:bg-primary w-full btn-outline text-secondary'><FcGoogle size={30}></FcGoogle> COntinue with google</button>
-                    </div>
+                        <button className='btn border-none  hover:bg-primary w-full btn-outline text-secondary'><FcGoogle size={30}></FcGoogle> Continue with google</button>
+                    </div> */}
                 </div>
             </div>
 

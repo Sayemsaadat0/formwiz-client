@@ -60,13 +60,13 @@ const Signin = () => {
                     </form>
                     <p className='text-red-500'>{loginError}</p>
                     <div className=" mt-6">
-                        <h5 className=' text-center'>New to Doctor's Portal? <Link to='/signup' className='text-secondary'>Create New Account</Link> </h5>
+                        <h5 className=' text-center'>New to Formwiz? <Link to='/signup' className='text-secondary'>Create New Account</Link> </h5>
                     </div>
-
+{/* 
                     <div className='divider'>or</div>
                     <div>
                         <button className='btn  w-full hover:bg-primary border-none'><FcGoogle size={30}></FcGoogle> COntinue with google</button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
